@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background-color:#EBEDEF;
+	font-size: 1rem;
+}
+p{
+	color: #566573;
+}
+.btn{
+	width: 170px;
+	display: inline-block;
+	background-color: #3498DB;
+	color: #fff;
+  font-weight: 700;
+  padding: 13px 12px;
+  cursor: pointer;
+  border:none;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 5px;
+}
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: auto;
+}
+/* estilos del header */
+img{
+	max-width: 100%;
+}
+.menu-bar{
+	display: none;
+}
+header{
+  background-color: #fff;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0px 2px 6px #ccc;
+}
+header .navbar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+header .navbar .logo h2{
+	font-size: 40px;
+	color: #000;
+	font-weight: 700;
+	line-height: 20px;
+}
+header .navbar .logo span{
+	color: #E74C3C;
+}
+header .navbar .menu{
+	padding: 25px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .navbar .shopping .fas{
+	font-size: 25px;
+	cursor: pointer;
+}
+header .navbar .menu li{
+  padding-left: 25px;
+}
+header .navbar .menu li a{
+	font-weight: 500;
+	color: #000;
+	font-size: 18px;
+}
+header .navbar .menu li a:hover{
+	text-decoration: underline;
+}
+/* estilos del contenido */
+
+.hero{
+	padding:  20px 0;
+	width: 100%;
+}
+.hero .info_buscar{
+	background-color: #fff;
+	padding: 20px 10px;
+	box-shadow: 0px 2px 6px #ccc;
+	border-radius: 4px;
+}
+.hero .info_buscar h2{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.hero .info_buscar form select, input[type="text"],input[type="password"]{
+   display: inline-block;
+   padding: 10px 15px;
+   text-align: center;
+   margin-left: 10px;
+   font-weight: 500;
+   border: 1px solid #3498DB;
+}
+.hero .info_buscar .btn:hover{
+	background-color: #2E86C1;
+	text-decoration: underline;
+}
+/* estilos al contenido */
+.contenido{
+	padding: 20px 0;
+	width: 100%;
+}
+.clearfix{
+	float: none;
+   clear: both;
+}
+.contenido .categorias{
+	width: 25%;
+	background: #fff;
+	padding: 15px;
+	height: auto;
+	float: left;
+	box-shadow: 0px 2px 6px #ccc;
+}
+.contenido .categorias h2{
+	background: #4C9FED;
+	color: #fff;
+	padding: 15px 0;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 10px;
+	border-radius: 8px;
+	box-shadow: 0px 4px 6px #ccc;
+}
+.contenido .categorias .wigget{
+	margin-bottom: 10px;
+}
+.contenido .categorias li{
+	margin: 5px 0;
+	background: #3498DB;
+	padding: 10px 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+.contenido .categorias li:hover{
+	background: #A7ACB1;
+}
+.contenido .categorias li a{
+	color: #f7f7f7;
+	font-weight: 600;
+}
+.contenido .categorias .wigget input{
+	width: 90%;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.contenido .destacados{
+	width: 70%;
+	background: #fff;
+	float: left;
+	margin-left: 35px;
+	padding: 10px;
+	box-shadow: 0px 2px 6px #ccc;
+}
+.contenido .destacados .heading{
+	padding: 5px 0;
+}
+.contenido .destacados .heading h2{
+	font-size: 28px;
+	text-transform: uppercase;
+}
+.contenido .destacados .cards{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.contenido .destacados .card{
+	width: 30%;
+    padding: 10px;
+    background: #F8F9F9;
+    margin: 10px 0 10px;
+    text-align: center;
+}
+.contenido .destacados .card .fas{
+	color:  #F1C40F;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.contenido .destacados .card img{
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+}
+.contenido .destacados .card a{
+	display: block;
+	width: 50%;
+	text-align: center;
+	padding: 10px 12px;
+	cursor: pointer;
+	background: #E74C3C;
+	color: #fff;
+	margin: 10px auto
+}
+.paginacion{
+	width: 100%;
+	text-align: center;;
+}
+.paginacion .pages li{
+	display: inline-block;
+	background: #3498DB;
+	margin: 12px 3px;
+	color: #fff;
+	line-height: 25px;
+	font-weight: bold;
+	padding: 8px 15px;
+	font-size: 30px;
+	cursor: pointer;
+	border-radius: 8px;
+}
+.paginacion .pages li:hover{
+  background: #808B96;
+}
+
+footer{
+	margin-top: 15px;
+	padding: 30px 0;
+	background: #fff;
+	text-align: center;
+	color: #ABB2B9;
+}
